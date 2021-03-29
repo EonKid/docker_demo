@@ -7,9 +7,10 @@ class UserList(Resource):
 
     def get(self):
         return [
-            {"name":"Dhruv Narayan Singh", "age":25},
-            {"name": "Jai Narayan Singh", "age": 27}
-
+            {"name":"John Doe", "id":25434343},
+            {"name": "Jack Ryan", "id": 273463634},
+            {"name": "The Avengers", "id": 3345345},
+            {"name": "Captain America", "id": 5454545}
         ]
 
 
